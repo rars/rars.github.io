@@ -1,25 +1,123 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Richard Russell - Homepage</title>
-    <base href="/" />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'none'; script-src 'self' 'unsafe-eval'; img-src 'self'; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.googleapis.com fonts.gstatic.com; connect-src 'self'"
-    />
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta
-      http-equiv="Referrer-Policy"
-      content="strict-origin-when-cross-origin"
-    />
-    <meta http-equiv="Feature-Policy" content="payment 'none'" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="stylesheet" href="styles.aa15ace181b86d234974.css"></head>
-  <body id="body">
-    <app-root></app-root>
-  <script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.39435b56f1767291d459.js"></script><script type="text/javascript" src="main.3aeae9c9451626bce772.js"></script></body>
+
+    <title>Richard Russell</title>
+    <meta name="description" content="Richard Russell's home page." />
+    <meta name="author" content="Richard Russell" />
+
+    <meta property="og:title" content="Richard Russell" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Richard Russell's home page." />
+    <meta property="og:image" content="image.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+  </head>
+
+  <body>
+    <!-- your content here... -->
+    <h1>Richard Russell</h1>
+    <h4>Full-stack developer</h4>
+
+    <h2>Intro</h2>
+    <div class="section">
+      <p>
+        I'm Richard Russell, a full-stack developer based in London, UK. I have
+        over 10 years professional experience writing software in a wide variety
+        of technologies across the enterprise search and fintech industry. I
+        also have research experience, having obtained a PhD and BA in Computer
+        Science from the University of Cambridge.
+      </p>
+      <div class="frontend">
+        <h5>Front-end</h5>
+        <div class="inside">
+          TypeScript, JavaScript, Angular, CSS, RxJS, ngrx, SignalR, gRPC-Web,
+          responsive design
+        </div>
+      </div>
+      <div class="backend">
+        <h5>Back-end</h5>
+        <div class="inside">
+          C#, AspNetCore, OpenAPI, gRPC, Python, RabbitMQ, Kafka, Azure AD,
+          Rust, C++
+        </div>
+      </div>
+      <div class="database">
+        <h5>Database</h5>
+        <div class="inside">SQL Server, Postgres, Redis, MongoDB</div>
+      </div>
+      <div class="devops">
+        <h5>Dev Ops</h5>
+        <div class="inside">Docker, Kubernetes, Argo CD, Jenkins</div>
+      </div>
+    </div>
+
+    <h2>Research</h2>
+    <div class="section">
+      <p>
+        My PhD was in an area of Artificial Intelligence known as Automated
+        Planning. If you are interested, you can find out more by reading the
+        materials below:
+      </p>
+      <ul>
+        <li>
+          <a href="./assets/pdf/rars-thesis-print-version.pdf">[PDF]</a> PhD
+          Dissertation
+        </li>
+        <li>
+          <a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-883.pdf"
+            >[PDF]</a
+          >
+          Richard Russell and Sean B. Holden. Survey propagation applied to
+          weighted partial maximum satisfiability. Technical Report
+          UCAM-CL-TR-883, University of Cambridge, Computer Laboratory, March
+          2016.
+        </li>
+        <li>
+          <a
+            href="https://www.aaai.org/ocs/index.php/ICAPS/ICAPS10/paper/view/1419"
+            >[AAAI Publications]</a
+          >
+          Richard Russell and Sean Holden. Handling Goal Utility Dependencies in
+          a Satisfiability Framework. Proceedings of International Conference on
+          Automated Planning and Scheduling (ICAPS), 2010.
+        </li>
+      </ul>
+    </div>
+
+    <h2>Software</h2>
+    <div class="section">
+      <p>
+        I'm interested in open-source software. You can find out more on my
+        <a href="https://github.com/rars"
+          ><i class="fa-brands fa-github"></i> GitHub</a
+        >
+        profile. Here is a brief overview of some Angular libraries I have made
+        available:
+      </p>
+      <ul>
+        <li>ng2csv - for downloading JSON data as CSV.</li>
+        <li>ngx-diff - for displaying diffs between text.</li>
+        <li>ngx-jwt - for injecting valid JWT tokens into HTTP requests.</li>
+      </ul>
+    </div>
+    <br />
+    <div class="section">
+      <small>Copyright &copy; 2022 Richard Russell</small>
+    </div>
+  </body>
 </html>

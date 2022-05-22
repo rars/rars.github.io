@@ -1,0 +1,30 @@
+body {
+  font-size: 14px;
+  font-family: Roboto;
+  padding: 1.5rem;
+}
+
+.section {
+  max-width: 40rem;
+  text-align: justify;
+}
+
+a {
+  color: #e0502d;
+}
+
+a:hover {
+  color: #999caa;
+}
+
+h5 {
+  border-left: 0.2rem solid #e0502d;
+  padding-left: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.inside {
+  margin-top: -1rem;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
