@@ -1,26 +1,49 @@
 body {
+  color: #313131;
+  background-color: #ccc;
   font-size: 14px;
   font-family: Roboto;
   padding: 1.5rem;
 }
 
-.section {
-  max-width: 40rem;
-  text-align: justify;
-}
-
 a {
-  color: #e0502d;
+  color: #5C165F;
 }
 
 a:hover {
-  color: #999caa;
+  color: #8E2292;
 }
 
 h5 {
-  border-left: 0.2rem solid #e0502d;
+  border-color: #9673e4;
+  border-left-width: 0.2rem;
+  border-left-style: solid;
   padding-left: 0.2rem;
   font-size: 0.9rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #313131;
+    color: #eee;
+  }
+
+  a {
+    color: #F2BCF8;
+  }
+
+  a:hover {
+    color: #F971FF;
+  }
+
+  h5 {
+    border-color: #8d74b1;;
+  }
+}
+
+.section {
+  max-width: 40rem;
+  text-align: justify;
 }
 
 .inside {
